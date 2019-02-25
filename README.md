@@ -1,3 +1,3 @@
 # AngularComponentInheritance
 
-Page components inherit change page method from BaseComponent
+Page components inherit openPage method from BaseComponent

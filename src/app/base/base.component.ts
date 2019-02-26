@@ -8,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BaseComponent implements OnInit {
 
+  baseProp = 'I\'m a value from the base component. super() returns all my functionality to my children.';
+
   constructor(public router: Router) { }
 
   ngOnInit() {
